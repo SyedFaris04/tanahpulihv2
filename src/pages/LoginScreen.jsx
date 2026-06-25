@@ -22,10 +22,7 @@ export default function LoginScreen() {
         <div className="mb-8">
           <div className="flex items-center gap-2 mb-6">
             <div className="w-8 h-8 rounded-lg bg-green-light flex items-center justify-center">
-              <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                <path d="M10 2 C6 5 4 10 6 14 C8 17 10 18 10 18 C10 18 12 17 14 14 C16 10 14 5 10 2Z" fill="#4CAF50"/>
-                <path d="M10 3 C10 3 10 17 10 18" stroke="#2E7D32" strokeWidth="1.2" strokeLinecap="round"/>
-              </svg>
+              <img src="/logo.png" alt="TanahPulih Logo" className="w-6 h-6 object-contain" />
             </div>
             <span className="font-bold text-primary text-lg">TanahPulih</span>
           </div>
